@@ -1,0 +1,37 @@
+{
+  "version": "2.6.2",
+  "release_version": "1.0",
+  "released_at": "2026-10-31",
+  "summary": {
+    "title": "Project 2 DevSecOps Pipeline",
+    "owner": "Daniel Ibrahim",
+    "description": "Threat model of a DevSecOps pipeline with security gates (CSSS 441 Project 2)",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [
+      {
+        "name": "Daniel Ibrahim"
+      },
+      {
+        "name": "Andrew Awuah"
+      },
+      {
+        "name": "Lical Elikem Chamenyi"
+      },
+      {
+        "name": "Prince Kofi Agbe"
+      },
+      {
+        "name": "Daniel Mensah Williams"
+      },
+      {
+        "name": "Mubarak Ali"
+      }
+    ],
+    "diagrams": [],
+    "diagramTop": 0,
+    "reviewer": "",
+    "threatTop": 0
+  }
+}
