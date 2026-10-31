@@ -90,14 +90,14 @@
               "isTrustBoundary": true,
               "hasOpenThreats": false,
               "crossingFlows": [
-                "e65e3ff4-fdc9-4ab1-acaa-7e862f1b55a0",
                 "d653f461-6037-44d9-9ae2-f2617cf4f6a7",
                 "f4c275c8-8fc6-4dca-8c2d-a80c932e6fb5",
                 "c1da1aed-50b8-4e8e-97f5-a6014d56474b",
                 "3c02da68-b50b-49a3-9c96-b0f2f495095d",
                 "0b641fc5-b9fa-4ad1-9087-577053b4535a",
-                "95369d0e-cbed-46b8-bc70-a2af84558771",
                 "3c244203-3764-45aa-b575-491daa022061",
+                "95369d0e-cbed-46b8-bc70-a2af84558771",
+                "e65e3ff4-fdc9-4ab1-acaa-7e862f1b55a0",
                 "5a166d27-3cb4-451c-bb6e-4c40a57a0fdd"
               ],
               "containedElements": [
@@ -144,13 +144,6 @@
               "containedElements": [
                 "6012a87d-a6a8-45e0-bb4c-14093f5ff8e2"
               ]
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
@@ -803,54 +796,6 @@
             "labels": [
               ""
             ],
-            "id": "e65e3ff4-fdc9-4ab1-acaa-7e862f1b55a0",
-            "source": {
-              "x": 520,
-              "y": 80
-            },
-            "target": {
-              "cell": "76344448-3176-452b-b3fe-836b4166e421",
-              "port": "ec71f8df-6390-4ce5-9f56-8ba931a59cde"
-            }
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": [
-                "ce563820-30c4-4f0d-a64b-0fded1d05196"
-              ]
-            },
-            "labels": [
-              ""
-            ],
             "id": "d653f461-6037-44d9-9ae2-f2617cf4f6a7",
             "source": {
               "x": 118,
@@ -1102,60 +1047,6 @@
               "protocol": "",
               "threats": [],
               "trustBoundaryIds": [
-                "ce563820-30c4-4f0d-a64b-0fded1d05196"
-              ]
-            },
-            "labels": [
-              ""
-            ],
-            "id": "95369d0e-cbed-46b8-bc70-a2af84558771",
-            "source": {
-              "x": 140,
-              "y": 110
-            },
-            "target": {
-              "cell": "0e4e1150-b18c-4517-8a75-8698d9bc6261",
-              "port": "add97a79-ecee-4677-ac9c-ceae62c972be"
-            },
-            "vertices": [
-              {
-                "x": 260,
-                "y": 110
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": [
                 "9a21f554-925a-4638-9503-466c96ca2f8b"
               ]
             },
@@ -1303,6 +1194,158 @@
                 "y": -10
               }
             ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [
+                {
+                  "id": "ddb25d71-3cc4-47fc-9d91-e5bb762f77cc",
+                  "title": "Workflow tampering through a pull request",
+                  "status": "Open",
+                  "severity": "Critical",
+                  "type": "Tampering",
+                  "description": "A malicious pull request edits a workflow file so it runs attacker code with access to secrets. This gives the attacker the CI system’s full privileges.",
+                  "mitigation": "No secrets for fork PRs; least-privilege GITHUB_TOKEN; CODEOWNERS and required review on workflow files.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 5,
+                  "score": ""
+                }
+              ],
+              "trustBoundaryIds": [
+                "ce563820-30c4-4f0d-a64b-0fded1d05196"
+              ],
+              "threatFrequency": {
+                "tampering": 1,
+                "informationDisclosure": 0,
+                "denialOfService": 0
+              }
+            },
+            "labels": [
+              ""
+            ],
+            "id": "95369d0e-cbed-46b8-bc70-a2af84558771",
+            "source": {
+              "x": 140,
+              "y": 110
+            },
+            "target": {
+              "cell": "0e4e1150-b18c-4517-8a75-8698d9bc6261",
+              "port": "add97a79-ecee-4677-ac9c-ceae62c972be"
+            },
+            "vertices": [
+              {
+                "x": 260,
+                "y": 110
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [
+                {
+                  "id": "b03cbc34-2a40-47ca-b0d0-2c3c55a03796",
+                  "title": "Hijacked third-party GitHub Action",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Tampering",
+                  "description": "A third-party action or its tag is hijacked or changed. One compromised action runs inside every build.",
+                  "mitigation": "Pin actions to full commit SHAs; Dependabot updates; allow-list of actions.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 6,
+                  "score": ""
+                }
+              ],
+              "trustBoundaryIds": [
+                "ce563820-30c4-4f0d-a64b-0fded1d05196"
+              ],
+              "threatFrequency": {
+                "tampering": 1,
+                "informationDisclosure": 0,
+                "denialOfService": 0
+              }
+            },
+            "labels": [
+              ""
+            ],
+            "id": "e65e3ff4-fdc9-4ab1-acaa-7e862f1b55a0",
+            "source": {
+              "x": 520,
+              "y": 80
+            },
+            "target": {
+              "cell": "76344448-3176-452b-b3fe-836b4166e421",
+              "port": "ec71f8df-6390-4ce5-9f56-8ba931a59cde"
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead"
+              ],
+              "name": null
+            }
           },
           {
             "position": {
@@ -2662,6 +2705,6 @@
     ],
     "diagramTop": 2,
     "reviewer": "",
-    "threatTop": 4
+    "threatTop": 6
   }
 }
