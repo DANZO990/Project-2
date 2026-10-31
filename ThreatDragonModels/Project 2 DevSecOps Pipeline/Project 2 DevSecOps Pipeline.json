@@ -90,14 +90,14 @@
               "isTrustBoundary": true,
               "hasOpenThreats": false,
               "crossingFlows": [
-                "f4c275c8-8fc6-4dca-8c2d-a80c932e6fb5",
-                "c1da1aed-50b8-4e8e-97f5-a6014d56474b",
                 "0b641fc5-b9fa-4ad1-9087-577053b4535a",
                 "3c244203-3764-45aa-b575-491daa022061",
                 "95369d0e-cbed-46b8-bc70-a2af84558771",
                 "e65e3ff4-fdc9-4ab1-acaa-7e862f1b55a0",
                 "d653f461-6037-44d9-9ae2-f2617cf4f6a7",
                 "3c02da68-b50b-49a3-9c96-b0f2f495095d",
+                "f4c275c8-8fc6-4dca-8c2d-a80c932e6fb5",
+                "c1da1aed-50b8-4e8e-97f5-a6014d56474b",
                 "5a166d27-3cb4-451c-bb6e-4c40a57a0fdd"
               ],
               "containedElements": [
@@ -796,102 +796,6 @@
             "labels": [
               ""
             ],
-            "id": "f4c275c8-8fc6-4dca-8c2d-a80c932e6fb5",
-            "source": {
-              "x": 164,
-              "y": 320
-            },
-            "target": {
-              "cell": "1034149a-d194-41bd-a4eb-0ef15822a56f",
-              "port": "ec71f8df-6390-4ce5-9f56-8ba931a59cde"
-            }
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": [
-                "ce563820-30c4-4f0d-a64b-0fded1d05196"
-              ]
-            },
-            "labels": [
-              ""
-            ],
-            "id": "c1da1aed-50b8-4e8e-97f5-a6014d56474b",
-            "source": {
-              "x": 354,
-              "y": 435
-            },
-            "target": {
-              "cell": "600c352f-4232-45b9-a4b4-e905dd957cf6",
-              "port": "b7056d96-e0c7-4f61-a4d1-7f33d9f721f5"
-            }
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": [
-                "ce563820-30c4-4f0d-a64b-0fded1d05196"
-              ]
-            },
-            "labels": [
-              ""
-            ],
             "id": "0b641fc5-b9fa-4ad1-9087-577053b4535a",
             "source": {
               "cell": "69b56088-bc8f-4b07-b76a-78939d248279",
@@ -902,99 +806,6 @@
               "y": 70
             },
             "vertices": []
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": [
-                "9a21f554-925a-4638-9503-466c96ca2f8b"
-              ]
-            },
-            "labels": [
-              ""
-            ],
-            "id": "fbd90a25-e942-42ac-8ebd-ea0d3597253e",
-            "source": {
-              "x": 379,
-              "y": 150
-            },
-            "target": {
-              "cell": "6012a87d-a6a8-45e0-bb4c-14093f5ff8e2",
-              "port": "add97a79-ecee-4677-ac9c-ceae62c972be"
-            }
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Data Flow",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "Data Flow"
-            ],
-            "id": "cf56a5ef-03f5-43e6-a246-0645beb829f0",
-            "source": {
-              "cell": "76344448-3176-452b-b3fe-836b4166e421"
-            },
-            "target": {
-              "cell": "600c352f-4232-45b9-a4b4-e905dd957cf6",
-              "port": "d4f690bc-692b-446b-90e5-72f282f5d93c"
-            }
           },
           {
             "shape": "flow",
@@ -1376,6 +1187,207 @@
                 "y": 360
               }
             ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [
+                {
+                  "id": "bee818a5-8a79-423e-bc76-df81eae99cf9",
+                  "title": "Sigstore or registry outage",
+                  "status": "Open",
+                  "severity": "Low",
+                  "type": "Denial of service",
+                  "description": "A Sigstore or registry outage blocks releases. It is short-lived, and a documented break-glass process can cover it.",
+                  "mitigation": "Documented break-glass release process.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 9,
+                  "score": ""
+                }
+              ],
+              "trustBoundaryIds": [
+                "ce563820-30c4-4f0d-a64b-0fded1d05196"
+              ],
+              "threatFrequency": {
+                "tampering": 0,
+                "informationDisclosure": 0,
+                "denialOfService": 1
+              }
+            },
+            "labels": [
+              ""
+            ],
+            "id": "f4c275c8-8fc6-4dca-8c2d-a80c932e6fb5",
+            "source": {
+              "x": 164,
+              "y": 320
+            },
+            "target": {
+              "cell": "1034149a-d194-41bd-a4eb-0ef15822a56f",
+              "port": "ec71f8df-6390-4ce5-9f56-8ba931a59cde"
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [
+                {
+                  "id": "8a4ada2b-5a87-4f60-9505-41b28ccb23e1",
+                  "title": "Staging left exposed",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Information disclosure",
+                  "description": "Staging, an intentionally vulnerable app, is left running and exposed to the internet. Anyone could find and exploit it.",
+                  "mitigation": "Ephemeral staging that is torn down after the scan; not publicly reachable.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 10,
+                  "score": ""
+                }
+              ],
+              "trustBoundaryIds": [
+                "ce563820-30c4-4f0d-a64b-0fded1d05196"
+              ],
+              "threatFrequency": {
+                "tampering": 0,
+                "informationDisclosure": 1,
+                "denialOfService": 0
+              }
+            },
+            "labels": [
+              ""
+            ],
+            "id": "c1da1aed-50b8-4e8e-97f5-a6014d56474b",
+            "source": {
+              "x": 354,
+              "y": 435
+            },
+            "target": {
+              "cell": "600c352f-4232-45b9-a4b4-e905dd957cf6",
+              "port": "b7056d96-e0c7-4f61-a4d1-7f33d9f721f5"
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [
+                {
+                  "id": "d5dabf6c-ddf3-4a16-b45a-15179afbfe4b",
+                  "title": "Staging escape or out-of-scope scan",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Tampering",
+                  "description": "A container escape in staging, or the ZAP scan reaching a system outside our lab. Scanning third parties may breach Act 1038.",
+                  "mitigation": "Isolated staging; scan only our own lab.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 11,
+                  "score": ""
+                }
+              ],
+              "trustBoundaryIds": [],
+              "threatFrequency": {
+                "tampering": 1,
+                "informationDisclosure": 0,
+                "denialOfService": 0
+              }
+            },
+            "labels": [
+              "Data Flow"
+            ],
+            "id": "cf56a5ef-03f5-43e6-a246-0645beb829f0",
+            "source": {
+              "cell": "76344448-3176-452b-b3fe-836b4166e421"
+            },
+            "target": {
+              "cell": "600c352f-4232-45b9-a4b4-e905dd957cf6",
+              "port": "d4f690bc-692b-446b-90e5-72f282f5d93c"
+            }
           },
           {
             "position": {
@@ -2686,7 +2698,8 @@
             "shape": "flow",
             "attrs": {
               "line": {
-                "stroke": "#333333",
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "targetMarker": {
                   "name": "block"
                 },
@@ -2707,15 +2720,34 @@
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "isBidirectional": false,
               "isEncrypted": false,
               "isPublicNetwork": false,
               "protocol": "",
-              "threats": [],
+              "threats": [
+                {
+                  "id": "1db5a929-ea2c-43cc-996c-ddc925ccc024",
+                  "title": "Secrets leaked through CI logs",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Tampering",
+                  "description": "Tokens or secrets leak through CI logs or build artefacts. Logs and artefacts are widely readable.",
+                  "mitigation": "Mask secrets in logs; short-lived tokens.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 13,
+                  "score": ""
+                }
+              ],
               "trustBoundaryIds": [
                 "ce563820-30c4-4f0d-a64b-0fded1d05196"
-              ]
+              ],
+              "threatFrequency": {
+                "tampering": 1,
+                "informationDisclosure": 0,
+                "denialOfService": 0
+              }
             },
             "labels": [
               ""
@@ -2728,6 +2760,84 @@
             "target": {
               "cell": "76344448-3176-452b-b3fe-836b4166e421",
               "port": "ec71f8df-6390-4ce5-9f56-8ba931a59cde"
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead"
+              ],
+              "name": null
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 23,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [
+                {
+                  "id": "86ccf45b-42ff-4dd4-9a31-062a4bb67876",
+                  "title": "Findings exposed in DefectDojo",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Information disclosure",
+                  "description": "Vulnerability findings are exposed through default credentials or an open API. This hands attackers a list of our weaknesses.",
+                  "mitigation": "Change default credentials; restrict API access.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 12,
+                  "score": ""
+                }
+              ],
+              "trustBoundaryIds": [
+                "9a21f554-925a-4638-9503-466c96ca2f8b"
+              ],
+              "threatFrequency": {
+                "tampering": 0,
+                "informationDisclosure": 1,
+                "denialOfService": 0
+              }
+            },
+            "labels": [
+              ""
+            ],
+            "id": "fbd90a25-e942-42ac-8ebd-ea0d3597253e",
+            "source": {
+              "x": 379,
+              "y": 150
+            },
+            "target": {
+              "cell": "6012a87d-a6a8-45e0-bb4c-14093f5ff8e2",
+              "port": "add97a79-ecee-4677-ac9c-ceae62c972be"
             }
           }
         ]
@@ -2735,6 +2845,6 @@
     ],
     "diagramTop": 2,
     "reviewer": "",
-    "threatTop": 8
+    "threatTop": 13
   }
 }
