@@ -144,6 +144,13 @@
               "containedElements": [
                 "6012a87d-a6a8-45e0-bb4c-14093f5ff8e2"
               ]
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
@@ -1255,14 +1262,13 @@
             "labels": [
               "Data Flow"
             ],
-            "id": "89d6f5d7-9852-474b-8fc1-16fd1c53e1c9",
+            "id": "cf56a5ef-03f5-43e6-a246-0645beb829f0",
             "source": {
-              "x": 316,
-              "y": 195
+              "cell": "76344448-3176-452b-b3fe-836b4166e421"
             },
             "target": {
-              "x": 416,
-              "y": 295
+              "cell": "600c352f-4232-45b9-a4b4-e905dd957cf6",
+              "port": "d4f690bc-692b-446b-90e5-72f282f5d93c"
             }
           },
           {
