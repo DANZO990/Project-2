@@ -2003,8 +2003,8 @@
                 "text": "p6 Gate\npass or fail"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -2101,12 +2101,34 @@
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "handlesCardPayment": false,
               "handlesGoodsOrServices": false,
               "isWebApplication": false,
               "privilegeLevel": "",
-              "threats": []
+              "threats": [
+                {
+                  "id": "ca726adb-7462-479b-952d-34626d98e903",
+                  "title": "Security gate bypassed",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Tampering",
+                  "description": "The gate is bypassed by lowering the threshold, removing a required check or using an admin override. This defeats the whole purpose of the pipeline.",
+                  "mitigation": "Branch protection with no admin bypass; thresholds in a protected file; audit log of overrides.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 14,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 0,
+                "tampering": 1,
+                "repudiation": 0,
+                "informationDisclosure": 0,
+                "denialOfService": 0,
+                "elevationOfPrivilege": 0
+              }
             }
           },
           {
@@ -2845,6 +2867,6 @@
     ],
     "diagramTop": 2,
     "reviewer": "",
-    "threatTop": 13
+    "threatTop": 14
   }
 }
